@@ -1,4 +1,4 @@
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
+import { Logs, Home, ShoppingCart } from "lucide-react"
 import {
     Sidebar,
     SidebarContent,
@@ -19,7 +19,12 @@ import {
     {
       title: "Pedidos",
       url: "/pedidos",
-      icon: Inbox,
+      icon: Logs,
+    },
+    {
+      title: "Carrinho",
+      url: "/carrinho",
+      icon:  ShoppingCart
     }
   ]
 
